@@ -3353,11 +3353,11 @@ nav ul a span.badge {
   }
 }
 
-@media only screen and (min-width: 993px) {
+/*@media only screen and (min-width: 993px) {
   .container {
     width: 70%;
   }
-}
+}*/
 
 .container .row {
   margin-left: -0.75rem;
@@ -4216,16 +4216,16 @@ nav i.material-icons {
   line-height: 56px;
 }
 
-nav .nav-wrapper {
+/*nav .nav-wrapper {
   position: relative;
   height: 100%;
-}
+}*/
 
-@media only screen and (min-width: 993px) {
+/*@media only screen and (min-width: 993px) {
   nav a.button-collapse {
     display: none;
   }
-}
+}*/
 
 nav .button-collapse {
   float: left;
@@ -4255,25 +4255,12 @@ nav .brand-logo.center {
           transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 992px) {
-  nav .brand-logo {
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
-  nav .brand-logo.left, nav .brand-logo.right {
-    padding: 0;
-    -webkit-transform: none;
-            transform: none;
-  }
-  nav .brand-logo.left {
-    left: 0.5rem;
-  }
-  nav .brand-logo.right {
-    right: 0.5rem;
-    left: auto;
-  }
+nav .brand-logo {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
+
 
 nav .brand-logo.right {
   right: 0.5rem;
