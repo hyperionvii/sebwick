@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Circles from './Circles'
 import About from './About'
 import Contact from './Contact'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 class App extends Component {
