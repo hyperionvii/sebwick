@@ -1,34 +1,40 @@
 
 body {
-  background-color: #1F8298;
+  background-color: #EECA33;
   font-family: 'Judson', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
- font-family: 'Archivo Black', sans-serif;
+ font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  color: #D9D7C6;
+  color: black;
   font-size: 50px;
-  margin-left: 1%;
+  margin-left: 2%;
   width: 50%;
-  border-bottom: 5px solid #CD5B6B
+  border-bottom: 6px solid #FFFFFF;
+  margin-top: 5%;
 }
 
 h2 {
-  color: #D9D7C6;
+  color: black;
   font-size: 32px;
   width: 32%;
-  margin-left: 1%;
-  border-bottom: 5px solid #CD5B6B
+  margin-left: 2%;
+  border-bottom: 6px solid #FFFFFF;
+  margin-top: 1%;
+}
+
+p {
+  display: inline-block;
 }
 
 .gallery {
   box-sizing: border-box;
   position: relative;
-  width: 1000px;
-  height: 1400px;
+  width: 1150px;
+  height: 700px;
   z-index: 1;
   overflow: hidden;
   color: #fff;
@@ -38,18 +44,29 @@ h2 {
   margin-top: 5%;
   padding: 0;
   font: inherit;
-  background: #1B91A9;
+  background: #E4C131;
   color: #222;
 }
 
 .about, .contact {
-  color: #D9D7C5;
+  color: black;
+  font-weight: bold;
   margin-left: 1%;
 }
 
 .about > p, .contact > p {
   width: 300px;
   margin-left: 5%;
+}
+
+.v1 {
+    border-left: 6px solid #FFFFFF;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: 20%;
+    margin-top: 30%;
+    top: 0;
 }
 
 
@@ -61,7 +78,7 @@ h2 {
 	border-radius: 50%;
   animation: drop 4.5s infinite;
   margin-right: 2%;
-  margin-top: -25%;
+  margin-top: -30%;
   float: right;
 }
 
@@ -73,10 +90,16 @@ h2 {
 	border-radius: 50%;
   animation: drop 4s infinite;
   margin-right: 10%;
-  margin-top: -15%;
+  margin-top: -30%;
   float: right;
 }
 
+#large {
+  font-size: 120px;
+  display: inline-block;
+  margin: 0px;
+  margin-left: 30px;
+}
 
 @keyframes drop{
   0%{transform: translateY(0px);}

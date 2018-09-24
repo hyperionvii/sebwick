@@ -5,12 +5,30 @@ class Contact extends Component {
   render () {
     return (
       <div className='contact'>
-        <h3>
-          Contact
-        </h3>
-        <p>
-          Shields up. I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.
-        </p>
+        <div>
+          <p>
+            Seattle, Washington
+          <br />
+            1 (540) 538-8308
+          <br />
+            rswicker@gmail.com
+          <br />
+          www.linkedin.com
+          </p>
+          <p id='large'>
+          /
+          </p>
+          <p>
+            <a> Project 1 </a>
+          <br />
+            <a> Project 1 </a>
+          <br />
+            <a> Project 1 </a>
+          </p>
+          <p id='large'>
+          /
+          </p>
+        </div>
       </div>
     )
   }

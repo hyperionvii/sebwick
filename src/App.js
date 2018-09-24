@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Circles from './Circles'
 import About from './About'
 import Contact from './Contact'
+import V1 from './V1'
 import './App.css'
 
 class App extends Component {
@@ -11,11 +12,11 @@ class App extends Component {
         <div className='gallery'>
           <h1>Sebastian Wicker</h1>
           <h2>Technical Writer</h2>
+          <V1 />
           <Circles />
           <br />
           <br />
           <br />
-          <About />
           <br />
           <br />
           <br />
