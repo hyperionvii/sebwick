@@ -21,6 +21,9 @@ class App extends Component {
           <br />
           <br />
           <Contact />
+          <p className='footer'>
+            Seattle, Washington <b>|</b>  1 (540) 538-8308 <b>|</b> rswicker@gmail.com <b>|</b> www.linkedin.com
+          </p>
         </div>
       </div>
     )
